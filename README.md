@@ -21,7 +21,7 @@
 ## 影片廣告
 
 ### 呈現畫面:
-![](https://paper-attachments.dropbox.com/s_DAC5D6BC9FF9D2AA140793FC33EA6DAE32AEA93F963A6CFA7E18758FB89A7E2E_1558439822946_+2019-05-21+7.29.30.png)
+![](https://user-images.githubusercontent.com/1284568/58097483-137d3280-7c0a-11e9-978c-8cadc5d76419.png)
 
 ### response:
 ```
@@ -39,7 +39,8 @@
 
 ## 一般廣告
 ### 呈現畫面:
-![](https://paper-attachments.dropbox.com/s_DAC5D6BC9FF9D2AA140793FC33EA6DAE32AEA93F963A6CFA7E18758FB89A7E2E_1558439822985_+2019-05-21+7.29.14.png)
+
+![](https://user-images.githubusercontent.com/1284568/58097499-24c63f00-7c0a-11e9-8e5f-5d4ae643e94f.png)
 
 
 ### response:
