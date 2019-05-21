@@ -40,7 +40,7 @@
 ## 一般廣告
 ### 呈現畫面:
 
-![](https://user-images.githubusercontent.com/1284568/58097499-24c63f00-7c0a-11e9-8e5f-5d4ae643e94f.png)
+![](https://user-images.githubusercontent.com/1284568/58097704-94d4c500-7c0a-11e9-93f4-9ca2fe812d99.png)
 
 
 ### response:
