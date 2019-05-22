@@ -1,21 +1,33 @@
 const express = require('express')
 const app = express()
 const data = require('./mock-data.json');
+const { PORT = 3000 } = process.env;
+
+const random = (min, max) => Math.floor(Math.random() * (max - min) ) + min;
+const genAdId = () => `${+new Date()}-${random(0, 1000)}`;
 
 //get random ad from mock data
-const getRandomAd = () => {
-  const ad = data[Math.floor(Math.random() * data.length)];
+const getAd = (type = '') => {
+  const ads = type
+    ? data.filter(ad => ad.type === type || !ad.success)
+    : data;
+
+  const ad = ads[random(0, ads.length)];
   return {
     ...ad,
-    id: +new Date()
+    id: genAdId()
   }
 }
 
 //api endpoint
 app.get('/ads', (req, res) => {
-  res.json(getRandomAd());
+  /**
+   * type: requested ad type
+   */
+  const { type = '' } = req.query;
+  res.json(getAd(type.toUpperCase()));
 })
 
-app.listen(3000, () => {
-  console.log('server open')
+app.listen(PORT, () => {
+  console.log(`server listening on port ${PORT}!`)
 })
